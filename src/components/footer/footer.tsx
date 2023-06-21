@@ -6,48 +6,85 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <aside className={styles.footer__copyright}>
-        <p className={styles.footer__trademark}>© Sai Shravan 2023</p>
-        <p className={styles.footer__text}>
-          This site was made using{' '}
-          <Link href='nextjs.org' className={styles.footer__link}>
-            Nextjs
-          </Link>{' '}
-        </p>
-      </aside>
-      <section className={styles.footer__socials}>
+      <p className={styles.footer__cr}>© Sai Shravan Vadla. 2023</p>
+      <section className={styles.footer__links}>
         <Link
-          href='https://github.com/@shravzzv'
           className={styles.footer__link}
+          href='https://www.github.com/shravzzv'
+          target='blank'
         >
-          <Image src='' alt='GitHub' className={styles.footer__image} />
-        </Link>
-        <Link href='https://linkedin.com/' className={styles.footer__link}>
-          <Image src='' alt='LinkedIn' className={styles.footer__image} />
+          <Image
+            className={styles.footer__img}
+            src='/social media svgs/github.svg'
+            alt='github'
+            width={50}
+            height={50}
+          />
         </Link>
         <Link
-          href='https://twitter.com/@shravzzv'
           className={styles.footer__link}
+          href='https://www.linkedin.com/in/sai-shravan-027040244/'
+          target='blank'
         >
-          <Image src='' alt='Twitter' className={styles.footer__image} />
+          <Image
+            className={styles.footer__img}
+            src='/social media svgs/linkedin.svg'
+            alt='github'
+            width={50}
+            height={50}
+          />
         </Link>
         <Link
-          href='https://instagram.com/shravzzv'
           className={styles.footer__link}
+          href='https://www.twitter.com/@shravzzv'
+          target='blank'
         >
-          <Image src='' alt='Instagram' className={styles.footer__image} />
+          <Image
+            className={styles.footer__img}
+            src='/social media svgs/twitter.svg'
+            alt='github'
+            width={50}
+            height={50}
+          />
         </Link>
         <Link
-          href='https://facebook.com/shravzzv'
           className={styles.footer__link}
+          href='https://www.youtube.com/@shravzzv'
+          target='blank'
         >
-          <Image src='' alt='Facebook' className={styles.footer__image} />
+          <Image
+            className={styles.footer__img}
+            src='/social media svgs/youtube.svg'
+            alt='github'
+            width={50}
+            height={50}
+          />
         </Link>
         <Link
-          href='https://youtube.com/@shravzzv'
           className={styles.footer__link}
+          href='https://www.instagram.com/shravzzv'
+          target='blank'
         >
-          <Image src='' alt='YouTube' className={styles.footer__image} />
+          <Image
+            className={styles.footer__img}
+            src='/social media svgs/instagram.svg'
+            alt='github'
+            width={50}
+            height={50}
+          />
+        </Link>
+        <Link
+          className={styles.footer__link}
+          href='https://www.facebook.com/shravzzv'
+          target='blank'
+        >
+          <Image
+            className={styles.footer__img}
+            src='/social media svgs/facebook.svg'
+            alt='github'
+            width={50}
+            height={50}
+          />
         </Link>
       </section>
     </footer>
