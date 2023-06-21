@@ -1,23 +1,45 @@
 import React from 'react'
-import syles from './contact.module.css'
+import styles from './contact.module.css'
 
 const Contact = () => {
   return (
-    <div>
-      <h2>Contact Us</h2>
-      <p>Phone</p>
-      <p>+91 insert non-personal phone here</p>
-      <p>Address</p>
-      <p>Insert Address here</p>
-      <p>Email</p>
-      <p>email@professional.com</p>
+    <div className={styles.contact}>
+      <h2 className={styles.contact__heading}>Contact Me</h2>
+      <p className={styles.contact__subheading}>Phone:</p>
+      <p className={styles.contact__info}>+91 insert non-personal phone here</p>
+      <p className={styles.contact__subheading}>Address:</p>
+      <p className={styles.contact__info}>Insert Address here</p>
+      <p className={styles.contact__subheading}>Email:</p>
+      <p className={styles.contact__info}>email@professional.com</p>
 
-      <form>
-        <input type='text' placeholder='Name' />
-        <input type='email' placeholder='Email' />
-        <input type='text' placeholder='Subject' />
-        <textarea placeholder='Message'></textarea>
-        <button type='submit'>Send Message</button>
+      <form className={styles.contact__form}>
+        <input
+          type='text'
+          placeholder='Name'
+          className={styles.contact__form__input}
+        />
+        <input
+          type='email'
+          placeholder='Email'
+          className={styles.contact__form__input}
+        />
+        <input
+          type='text'
+          placeholder='Subject'
+          className={styles.contact__form__input}
+        />
+        <textarea
+          placeholder='Message'
+          className={styles.contact__form__input}
+          rows={8}
+        ></textarea>
+        <button
+          type='submit'
+          placeholder='message'
+          className={styles.contact__form__submit}
+        >
+          Send Message
+        </button>
       </form>
     </div>
   )

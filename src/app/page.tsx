@@ -13,7 +13,7 @@ export default function Home() {
       </main>
       <section className={styles.aboutme}></section>
       <section className={styles.projects}></section>
-      <section className={styles.contactme}>
+      <section className={styles.container}>
         <Contact />
       </section>
       <section className={styles.blog}></section>
