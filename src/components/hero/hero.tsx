@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div>
-      <div className={styles.container}>
+      <div className={styles.container} id='home'>
         <Image
           src='/hero.jpg'
           alt='hero'

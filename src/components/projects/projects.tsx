@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Projects = () => {
   return (
     <div>
-      <div className={styles.container}>
+      <div className={styles.container} id='portfolio'>
         <h2 className={styles.heading}>Projects</h2>
         <div className={styles.project}>
           <Link
