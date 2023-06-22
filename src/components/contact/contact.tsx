@@ -3,7 +3,7 @@ import styles from './contact.module.css'
 
 const Contact = () => {
   return (
-    <div className={styles.contact}>
+    <div className={styles.container}>
       <h2 className={styles.contact__heading}>Contact Me</h2>
       <p className={styles.contact__subheading}>Phone:</p>
       <p className={styles.contact__info}>+91 insert non-personal phone here</p>
