@@ -29,7 +29,7 @@ const Footer = () => {
           <Image
             className={styles.footer__img}
             src='/social media svgs/linkedin.svg'
-            alt='github'
+            alt='linkedIn'
             width={50}
             height={50}
           />
@@ -42,7 +42,7 @@ const Footer = () => {
           <Image
             className={styles.footer__img}
             src='/social media svgs/twitter.svg'
-            alt='github'
+            alt='twitter'
             width={50}
             height={50}
           />
@@ -55,7 +55,7 @@ const Footer = () => {
           <Image
             className={styles.footer__img}
             src='/social media svgs/youtube.svg'
-            alt='github'
+            alt='youtube'
             width={50}
             height={50}
           />
@@ -68,7 +68,7 @@ const Footer = () => {
           <Image
             className={styles.footer__img}
             src='/social media svgs/instagram.svg'
-            alt='github'
+            alt='instagram'
             width={50}
             height={50}
           />
@@ -81,7 +81,7 @@ const Footer = () => {
           <Image
             className={styles.footer__img}
             src='/social media svgs/facebook.svg'
-            alt='github'
+            alt='facebook'
             width={50}
             height={50}
           />
