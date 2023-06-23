@@ -4,9 +4,14 @@ import styles from './navbar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Navbar = () => {
+type navbarProps = {
+  theme: string
+  changeTheme: any
+}
+
+const Navbar = ({ theme, changeTheme }: navbarProps) => {
   const [toggle, setToggle] = useState<boolean>(false)
-  const [isLightTheme, setIsLightTheme] = useState<boolean>(true)
+
   return (
     <div className={styles.navbar}>
       <div className={`${styles.container} ${styles.nav__container}`}>
@@ -52,20 +57,20 @@ const Navbar = () => {
                 alt='light-theme'
                 width={50}
                 height={50}
-                className={`${styles.light__bulb} ${
-                  isLightTheme || styles.themeactive
+                className={`${
+                  theme === 'light' ? styles.themeactive : styles.themeinactive
                 }`}
-                onClick={() => setIsLightTheme(true)}
+                onClick={() => changeTheme('light')}
               />
               <Image
                 src='/utility svgs/darktheme-bulb.svg'
                 alt='light-theme'
                 width={50}
                 height={50}
-                className={`${styles.dark__bulb} ${
-                  isLightTheme && styles.themeactive
+                className={`${
+                  theme === 'dark' ? styles.themeactive : styles.themeinactive
                 }`}
-                onClick={() => setIsLightTheme(false)}
+                onClick={() => changeTheme('dark')}
               />
             </li>
           </ul>
