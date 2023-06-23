@@ -2,10 +2,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  min-height: 10vh;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
-/* todo: make navbar sticky */
 
 .container {
   width: 90%;
@@ -69,12 +68,9 @@
   text-decoration: none;
 }
 
-.nav__theme {
-  cursor: pointer;
-}
-
 .themeactive {
   filter: grayscale(1);
+  cursor: pointer;
 }
 
 @media (min-width: 900px) {
