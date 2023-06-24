@@ -54,7 +54,7 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
             <li className={`${styles.nav__item} ${styles.nav__theme}`}>
               <Image
                 src='/utility svgs/lighttheme-bulb.svg'
-                alt='light-theme'
+                alt='lighttheme'
                 width={50}
                 height={50}
                 className={`${
@@ -64,7 +64,7 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
               />
               <Image
                 src='/utility svgs/darktheme-bulb.svg'
-                alt='light-theme'
+                alt='darktheme'
                 width={50}
                 height={50}
                 className={`${
