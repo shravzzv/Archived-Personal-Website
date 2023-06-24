@@ -5,16 +5,18 @@ import styles from './contact.module.css'
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const name: string = e.target[0].value
-    const email: string = e.target[1].value
-    const subject: string = e.target[2].value
-    const message: string = e.target[3].value
-    console.log(name, email, subject, message)
+    // const name: string = e.target[0].value
+    // const email: string = e.target[1].value
+    // const subject: string = e.target[2].value
+    // const message: string = e.target[3].value
+    // console.log(name, email, subject, message)
   }
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
-        <h2 className={styles.heading}>Contact</h2>
+        <h2 className={styles.heading} id='contact'>
+          Contact
+        </h2>
         <div className={styles.contact__container}>
           <div className={styles.info}>
             <p className={styles.info__title}>Phone</p>
