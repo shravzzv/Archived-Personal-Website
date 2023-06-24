@@ -26,7 +26,7 @@ const Contact = () => {
               Chilkoor, Moinabad, ranga reddy
             </p>
             <p className={styles.info__title}>Email</p>
-            <p className={styles.info__content}>saishravancontact@gmail.com</p>
+            <p className={styles.info__content}>shravzzv@outlook.com</p>
           </div>
 
           <form className={styles.form} onSubmit={handleSubmit}>
