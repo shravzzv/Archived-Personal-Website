@@ -13,10 +13,13 @@ type layoutProps = {
 
 export default function RootLayout({ children }: layoutProps) {
   const [theme, setTheme] = useState('light')
-  console.log(theme)
   return (
     <html lang='en'>
-      <body className={`${inter.className} ${theme === 'light' ? 'lightTheme' : 'darkTheme'}`}>
+      <body
+        className={`${inter.className} ${
+          theme === 'light' ? 'lightTheme' : 'darkTheme'
+        }`}
+      >
         <Navbar theme={theme} changeTheme={setTheme} />
         {children}
         <Footer />
