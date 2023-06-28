@@ -75,98 +75,119 @@ const About = () => {
               <Image
                 src='/programmer svgs/html.svg'
                 alt='html'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/css.svg'
                 alt='css'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/js-2.svg'
                 alt='javascript'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/react-2.svg'
                 alt='react'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/nextjs.svg'
                 alt='nextjs'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/nodejs.svg'
                 alt='nodejs'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/mongodb.svg'
                 alt='mongodb'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/typescript.svg'
                 alt='typescript'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/git.svg'
                 alt='git'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/scss.svg'
                 alt='scss'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/figma.svg'
                 alt='figma'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
               <Image
                 src='/programmer svgs/postgresql.svg'
                 alt='postgresql'
-                width={50}
-                height={50}
+                width={75}
+                height={75}
                 className={styles.techIcon}
               />
             </div>
-            <p className={styles.section__content}>I can type at 70 WPM ⌨</p>
             <h4 className={styles.section__subtitle}>Communication</h4>
             <p className={styles.section__content}>
               Fluent in English and Telugu, with strong written and verbal
               communication skills. Knowledgeable in Hindi and French.
             </p>
+            <h4 className={styles.section__subtitle}>Other</h4>
+            <p className={styles.section__content}>
+              Average Typing Speed: 70 WPM
+            </p>
           </div>
           <div className={styles.section}>
             <h3 className={styles.section__title}>hobbies and interests</h3>
-            <p className={styles.section}>I enjoy reading and writing code.</p>
+            <p className={styles.section}>
+              Reading: I'm an avid reader, especially in the genres of
+              non-fiction and personal development.
+            </p>
+            <p className={styles.section}>
+              Fitness: I prioritize daily workouts to stay healthy and
+              energized. <br /> Meditation: I practice daily meditation for
+              inner peace and mental clarity.
+            </p>
+            <p className={styles.section}>
+              Self-care: I make time for self-care activities to nurture my
+              well-being.
+            </p>
+            <p className={styles.section}>
+              Lifelong Learning: I'm passionate about learning and constantly
+              seek new knowledge and skills. Programming: I find joy in
+              programming and using technology to solve problems and bring ideas
+              to life.
+            </p>
           </div>
           <div className={`${styles.links} ${styles.section}`}>
             <Link href='/resume.pdf' target='blank' className={styles.cv}>

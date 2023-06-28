@@ -38,10 +38,18 @@
 }
 
 .icons {
+  width: 100%;
   padding: 0.5em 0;
   display: flex;
-  gap: 0.2em;
+  align-items: center;
+  gap: 0.5em;
   flex-wrap: wrap;
+}
+
+.techIcon:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .links {
