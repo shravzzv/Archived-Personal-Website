@@ -1,5 +1,5 @@
 .hero {
-  /* background-color: antiquewhite; */
+  background-color: inherit;
 }
 
 .container {
@@ -11,7 +11,7 @@
 .hero__container {
   border-radius: 10px;
   text-align: center;
-  margin: 1em auto;
+  padding: 2em 0;
 }
 
 .info {

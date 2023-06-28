@@ -5,11 +5,8 @@ import hero from 'public/illustrations/hero.png'
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
-      <div
-        className={`${styles.container} ${styles.hero__container}`}
-        id='home'
-      >
+    <div className={styles.hero} id='home'>
+      <div className={`${styles.container} ${styles.hero__container}`}>
         <div className={styles.info}>
           <h2 className={styles.info__heading}>👋</h2>
           <h1 className={styles.info__subheading}>

@@ -8,7 +8,7 @@ import socialmediaproject from 'public/project images/socialmediaproject.jpeg'
 const Projects = () => {
   return (
     <div className={styles.projects}>
-      <div className={`${styles.container}`} id='portfolio'>
+      <div className={`${styles.container}`}>
         <h2 className={styles.heading} id='portfolio'>
           Portfolio
         </h2>

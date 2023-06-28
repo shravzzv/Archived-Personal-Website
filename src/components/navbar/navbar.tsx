@@ -37,7 +37,7 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
               </Link>
             </li>
             <li className={styles.nav__item}>
-              <Link href='#aboutme' className={styles.nav__link}>
+              <Link href='#about' className={styles.nav__link}>
                 About
               </Link>
             </li>

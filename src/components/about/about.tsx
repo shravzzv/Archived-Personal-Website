@@ -6,8 +6,10 @@ import Link from 'next/link'
 const About = () => {
   return (
     <div className={styles.about}>
-      <div className={`${styles.container}`} id='about'>
-        <h2 className={styles.heading}>About me</h2>
+      <div className={`${styles.container}`}>
+        <h2 className={styles.heading} id='about'>
+          About me
+        </h2>
         <div className={styles.about__container}>
           <p className={styles.aboutme}>
             Hi there! I'm Sai Shravan, a passionate and dedicated programmer
