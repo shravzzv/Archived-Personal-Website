@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import styles from './contact.module.css'
+import Link from 'next/link'
 
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -26,7 +27,9 @@ const Contact = () => {
               Chilkoor, Moinabad, ranga reddy
             </p>
             <p className={styles.info__title}>Email</p>
-            <p className={styles.info__content}>shravzzv@outlook.com</p>
+            <Link href='mailto:shravzzv@outlook.com' target='_blank'>
+              <p className={styles.info__content}>shravzzv@outlook.com</p>
+            </Link>
           </div>
 
           <form className={styles.form} onSubmit={handleSubmit}>
