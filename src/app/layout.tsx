@@ -1,4 +1,5 @@
 'use client'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from '@/components/navbar/navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: layoutProps) {
         <Navbar theme={theme} changeTheme={setTheme} />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
