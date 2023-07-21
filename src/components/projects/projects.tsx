@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import thefacebookproject from 'public/project images/thefacebookproject.jpeg'
 import socialmediaproject from 'public/project images/socialmediaproject.jpeg'
+import personalizeIt from 'public/project images/personalizeIt.jpeg'
 
 const Projects = () => {
   return (
@@ -82,7 +83,7 @@ const Projects = () => {
               className={styles.imgContainer}
             >
               <Image
-                src={thefacebookproject}
+                src={personalizeIt}
                 alt='project name'
                 className={styles.project__image}
               />
