@@ -5,6 +5,7 @@ import Link from 'next/link'
 import thefacebookproject from 'public/project images/thefacebookproject.jpeg'
 import socialmediaproject from 'public/project images/socialmediaproject.jpeg'
 import personalizeIt from 'public/project images/personalizeIt.jpeg'
+import portfolio from 'public/project images/portfolio.jpeg'
 
 const Projects = () => {
   return (
@@ -111,7 +112,7 @@ const Projects = () => {
           <div className={styles.project}>
             <Link href='#' className={styles.imgContainer}>
               <Image
-                src={socialmediaproject}
+                src={portfolio}
                 alt='this website'
                 className={styles.project__image}
               />
