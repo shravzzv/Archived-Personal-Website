@@ -142,6 +142,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-// todo: style iframes
-// todo: flex wrap projects
