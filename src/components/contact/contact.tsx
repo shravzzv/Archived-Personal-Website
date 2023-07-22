@@ -58,7 +58,7 @@ const Contact = () => {
               rows={10}
               className={styles.form__input}
             ></textarea>
-            <button type='submit' className={styles.form__submit}>
+            <button disabled type='submit' className={styles.form__submit}>
               Send Message
             </button>
           </form>

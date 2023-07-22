@@ -58,7 +58,7 @@
   border-radius: 30px;
   font-weight: 600;
   align-self: flex-end;
-  cursor: pointer;
+  cursor: not-allowed;
   transition: transform 0.3s ease;
 }
 
