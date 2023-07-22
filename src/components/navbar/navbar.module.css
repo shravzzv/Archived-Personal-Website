@@ -39,8 +39,7 @@
 }
 
 .nav__toggle:focus,
-.nav__toggle:hover,
-.nav__link:hover {
+.nav__toggle:hover {
   opacity: 0.6;
 }
 
@@ -109,5 +108,20 @@
 
   .nav__theme {
     margin-left: auto;
+  }
+
+  .nav__link {
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 10px;
+  }
+  .nav__link:hover {
+    background-color: rgb(143, 142, 142);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .nav__link:hover {
+      background-color: rgb(117, 116, 116);
+    }
   }
 }
