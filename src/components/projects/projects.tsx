@@ -15,36 +15,6 @@ const Projects = () => {
           Portfolio
         </h2>
         <div className={styles.projects__container}>
-          <div className={styles.project}>
-            <Link
-              href='https://thefacebook.vercel.app/'
-              target='blank'
-              className={styles.imgContainer}
-            >
-              <Image
-                src={thefacebookproject}
-                alt='project name'
-                className={styles.project__image}
-              />
-            </Link>
-            <h3 className={styles.project__title}>Thefacebook 2004</h3>
-            <p className={styles.project__desc}>
-              A MERN stack clone of the first version of Facebook.
-            </p>
-            <div className={styles.project__socials}>
-              <Link
-                href='https://github.com/shravzzv/thefacebook.comclient'
-                target='_blank'
-              >
-                <Image
-                  src='/social media svgs/github.svg'
-                  alt='github'
-                  width={50}
-                  height={50}
-                />
-              </Link>
-            </div>
-          </div>
 
           <div className={styles.project}>
             <Link
