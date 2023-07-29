@@ -31,37 +31,6 @@ const Contact = () => {
               <p className={styles.info__content}>shravzzv@outlook.com</p>
             </Link>
           </div>
-
-          <form className={styles.form} onSubmit={handleSubmit}>
-            <input
-              type='text'
-              name='name'
-              placeholder='Name'
-              className={styles.form__input}
-            />
-            <input
-              type='email'
-              name='email'
-              placeholder='Email'
-              className={styles.form__input}
-            />
-            <input
-              type='text'
-              name='subject'
-              placeholder='Subject'
-              className={styles.form__input}
-            />
-            <textarea
-              name='message'
-              placeholder='Message'
-              cols={30}
-              rows={10}
-              className={styles.form__input}
-            ></textarea>
-            <button disabled type='submit' className={styles.form__submit}>
-              Send Message
-            </button>
-          </form>
         </div>
       </div>
     </div>
