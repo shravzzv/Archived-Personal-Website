@@ -65,6 +65,11 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
+
+  body {
+    background-color: #202124;
+    color: white;
+  }
 }
 
 /* variables declared above */
