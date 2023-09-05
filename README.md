@@ -1,42 +1,37 @@
-# Personal Portfolio Website
+# Welcome to My Portfolio Website
 
-Welcome to the GitHub repository for my personal portfolio website! This repository contains all the necessary code and assets I used to build and deploy my portfolio website.
+![GitHub last commit](https://img.shields.io/github/last-commit/shravzzv/Portfolio)
+![GitHub license](https://img.shields.io/github/license/shravzzv/Portfolio)
 
-## Setup Instructions
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/your-username/portfolio.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd portfolio
-   ```
-
-3. Open the `index.html` file in your web browser to view the website locally.
+Explore my personal portfolio website to learn more about my work, skills, and projects. View it live [here](https://saishravan.vercel.app).
 
 ## Technologies Used
 
-The portfolio website is built using:
+This portfolio website is built using the following technologies:
 
-- Next.js
-- CSS
-- Typescript
-- Deployed using Vercel
+- **Next.js:** A powerful React framework for building fast and efficient web applications.
+- **CSS:** Cascading Style Sheets for styling and design.
+- **Typescript:** A statically-typed superset of JavaScript, enhancing code quality.
+- **Vercel:** The platform used for seamless deployment and hosting.
+
+## Usage
+
+Feel free to clone this repository and adapt it for your own portfolio. Customize the content and design to suit your personal brand.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. For more details, please see the [LICENSE](https://github.com/shravzzv/Portfolio/blob/main/LICENSE) file.
 
-## Contact
+## Get in Touch
 
-If you have any questions or feedback, feel free to reach out to me.
+Have questions or feedback? Reach out to me:
+
+- Email: [shravzzv@outlook.com](mailto:shravzzv@outlook.com)
+- LinkedIn: [Sai Shravan](https://www.linkedin.com/in/sai-shravan-027040244/)
+- Twitter: [@shravzzv](https://twitter.com/shravzzv)
 
 ## Contributions
 
-Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
+Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please submit a [pull request](https://github.com/shravzzv/Portfolio/pulls) or report an [issue](https://github.com/shravzzv/Portfolio/issues).
+
+Thank you for visiting my portfolio website repository! 🚀
