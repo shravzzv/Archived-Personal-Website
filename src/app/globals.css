@@ -7,6 +7,7 @@
 :root {
   --txt-clr-prm: black;
   --bg-clr-prm: white;
+  --bg-clr-sec: rgb(240, 239, 239);
 }
 
 :root.invert {
@@ -18,6 +19,8 @@ body {
   margin: 0;
   color: var(--txt-clr-prm);
   background-color: var(--bg-clr-prm);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -32,6 +35,7 @@ img {
   :root {
     --txt-clr-prm: white;
     --bg-clr-prm: #181a1b;
+    --bg-clr-sec: #010409;
   }
 
   :root.invert {
