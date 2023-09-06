@@ -51,7 +51,7 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
                 Contact
               </Link>
             </li>
-            <li className={`${styles.nav__item} ${styles.nav__theme}`}>
+            {/* <li className={`${styles.nav__item} ${styles.nav__theme}`}>
               <Image
                 src='/utility svgs/lighttheme-bulb.svg'
                 alt='lighttheme'
@@ -72,7 +72,7 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
                 }`}
                 onClick={() => changeTheme('dark')}
               />
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

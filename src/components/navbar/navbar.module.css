@@ -63,6 +63,7 @@
 
 .nav__link {
   text-decoration: none;
+  color: var(--txt-clr-prm);
 }
 
 .themeactive {
