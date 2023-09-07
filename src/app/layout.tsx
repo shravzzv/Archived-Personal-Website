@@ -12,7 +12,6 @@ export default function RootLayout({ children }: layoutProps) {
   return (
     <html lang='en'>
       <body>
-        <Navbar />
         {children}
         <Footer />
         <Analytics />
