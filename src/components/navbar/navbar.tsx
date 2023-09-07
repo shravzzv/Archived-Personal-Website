@@ -4,18 +4,14 @@ import styles from './navbar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-type navbarProps = {
-  theme: string
-  changeTheme: any
-}
-
-const Navbar = ({ theme, changeTheme }: navbarProps) => {
+const Navbar = () => {
   const [toggle, setToggle] = useState<boolean>(false)
 
   return (
     <div className={styles.navbar}>
       <div className={`${styles.container} ${styles.nav__container}`}>
-        <div className={styles.nav__logo}>Sai Shravan</div>
+        <div className={styles.nav__logo}>🧡</div>
+
         <button
           className={styles.nav__toggle}
           aria-label='open navigation'
@@ -25,10 +21,11 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
             src='/utility svgs/hamburger.svg'
             alt='hamburger'
             className={styles.nav__hamburger}
-            width={50}
-            height={50}
+            width={40}
+            height={40}
           />
         </button>
+
         <nav className={`${styles.nav} ${toggle && styles.nav__visible}`}>
           <ul className={styles.nav__list}>
             <li className={styles.nav__item}>
@@ -51,32 +48,32 @@ const Navbar = ({ theme, changeTheme }: navbarProps) => {
                 Contact
               </Link>
             </li>
-            <li className={`${styles.nav__item} ${styles.nav__theme}`}>
-              <Image
-                src='/utility svgs/lighttheme-bulb.svg'
-                alt='lighttheme'
-                width={50}
-                height={50}
-                className={`${
-                  theme === 'light' ? styles.themeactive : styles.themeinactive
-                }`}
-                onClick={() => changeTheme('light')}
-              />
-              <Image
-                src='/utility svgs/darktheme-bulb.svg'
-                alt='darktheme'
-                width={50}
-                height={50}
-                className={`${
-                  theme === 'dark' ? styles.themeactive : styles.themeinactive
-                }`}
-                onClick={() => changeTheme('dark')}
-              />
-            </li>
           </ul>
         </nav>
       </div>
     </div>
+  )
+
+  return (
+    <nav className={styles.nav}>
+      <p className='nav__logo'>🧡</p>
+      <p className='nav__toggle'>🍔</p>
+
+      <ul className='nav__list'>
+        <li>
+          <Link href='#'>Home</Link>
+        </li>
+        <li>
+          <Link href='#about'>About</Link>
+        </li>
+        <li>
+          <Link href='#portfolio'>Experience</Link>
+        </li>
+        <li>
+          <Link href='#contact'>Contact</Link>
+        </li>
+      </ul>
+    </nav>
   )
 }
 

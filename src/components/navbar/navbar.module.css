@@ -1,9 +1,9 @@
 .navbar {
+  background-color: var(--bg-clr-sec);
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: inherit;
 }
 
 .container {
@@ -23,24 +23,12 @@
 }
 
 .nav__toggle {
-  border: none;
   background-color: transparent;
-  cursor: pointer;
-  position: absolute;
-  border: 0;
-  width: 3em;
-  height: 3em;
-  padding: 0em;
-  transition: opacity 250ms ease;
-
   position: absolute;
   right: 0;
-  top: 0;
-}
-
-.nav__toggle:focus,
-.nav__toggle:hover {
-  opacity: 0.6;
+  top: 6px;
+  cursor: pointer;
+  border: none;
 }
 
 .nav {
@@ -63,14 +51,7 @@
 
 .nav__link {
   text-decoration: none;
-}
-
-.themeactive {
-  filter: grayscale(1);
-}
-
-.themeinactive {
-  cursor: pointer;
+  color: var(--txt-clr-prm);
 }
 
 @media (min-width: 900px) {
@@ -121,7 +102,7 @@
 
   @media (prefers-color-scheme: dark) {
     .nav__link:hover {
-      background-color: rgb(117, 116, 116);
+      background-color: rgb(78, 77, 77);
     }
   }
 }
