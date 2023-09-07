@@ -33,7 +33,8 @@
 
 .image {
   width: 100%;
-  height: 450px;
+  height: 100%;
+  border-radius: 50%;
   object-fit: contain;
   animation: move 4s infinite ease alternate;
 }
