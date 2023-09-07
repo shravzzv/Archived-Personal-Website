@@ -13,14 +13,13 @@
 }
 
 .nav__container {
-  /* padding: 1em 0; */
+  padding: 1em 0;
   position: relative;
 }
 
 .nav__logo {
   font-weight: bold;
   font-size: 1rem;
-  min-height: 10vh;
 }
 
 .nav__toggle {
